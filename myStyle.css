@@ -12,5 +12,9 @@ body{
 }
 div.navItem{
 	display:inline-block;
+	width:100%;
+}
+a.navItem{
+	display:inline-block;
 	width:25%;
 }
