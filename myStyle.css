@@ -13,8 +13,11 @@ body{
 div.navItem{
 	display:inline-block;
 	width:100%;
+	text-align:center;
 }
 a.navItem{
 	display:inline-block;
 	width:25%;
+	background-color:orange;
+	border:3px solid black;
 }
