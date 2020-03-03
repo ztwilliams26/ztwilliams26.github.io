@@ -9,6 +9,7 @@ body{
 	display:flex;
 	justify-content:center;
 	width:95%;
+	margin-bottom:10px;
 }
 div.navItem{
 	display:inline-block;
@@ -25,6 +26,4 @@ a.navItem{
 div.project{
 	width:40%;
 	display:inline-flex;
-	justify-content: center;
-	
 }
