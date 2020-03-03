@@ -1,5 +1,9 @@
 /* Hello world */
 
+body{
+	padding:0px;
+	border:10px;
+}
 #navBar{
 	position:fixed;
 	width:100%;
