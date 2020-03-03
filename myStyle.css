@@ -1,1 +1,9 @@
 /* Hello world */
+
+#navBar{
+	position:fixed;
+}
+div.navItem{
+	display:inline-block;
+	width:25%;
+}
