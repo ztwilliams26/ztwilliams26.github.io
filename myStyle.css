@@ -1,29 +1,78 @@
 /* Hello world */
-
 body{
-	padding:0px;
-	background-color:yellow;
+	margin: 0px 0px;
 }
+
 #navBar{
 	position:fixed;
+	top:0px;
+	right:0px;
+	left:0px;
 	display:flex;
-	justify-content:center;
-	width:95%;
-	margin-bottom:10px;
+	align-content: center;
+	justify-content:flex-start;
+	width:100%;
+	margin: 0px auto;
+	z-index:1;
+	background-color: #4056a1;
 }
 div.navItem{
 	display:inline-block;
-	width:100%;
-	text-align:center;
+
 }
 a.navItem{
 	display:inline-block;
-	width:25%;
-	background-color:orange;
-	border:3px solid black;
+	width:33%;
+	padding:10px 0px;
+	color: white;
+	text-align:center;
 
 }
+#container{
+	width:90%;
+	background-color: #EFE2BA;
+	padding: 1% 2%;
+	margin: 3vh auto;
+	position:relative;
+
+}
+#aboutMe{
+	position:relative;
+	text-align: center;
+	display:block;
+	margin:0 5%;
+}
+#projects{
+	margin-top: 4%;
+	display:block;
+}
 div.project{
+	width:45%;
+	display:inline-block;
+	vertical-align: top;
+	margin:0 auto;
+}
+#more{
+	background-color: #d79922;
+	color:white;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	z-index:1;
+	height: 5vh;
+
+}
+#more h1{
+	display:inline-block;
+	vertical-align: middle;
+	margin:0px 2%;
+	text-align: center;
+	width:33%;
+}
+#more img{
 	width:40%;
-	display:inline-flex;
+	height:60%;
+	vertical-align: middle;
+	width:25%;
+	width:30%;
 }
